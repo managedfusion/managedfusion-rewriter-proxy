@@ -1,0 +1,10 @@
+﻿ProxyRequests On
+#RewriteLog "log.txt"
+#RewriteLogLevel 9
+
+# You can find the proxy directives here http://httpd.apache.org/docs/2.0/mod/mod_proxy.html
+# currently only the ProxyPass and ProxyRequests directives have been implimented.
+# The following rules are just examples and can be deleted if you already know what you are doing
+
+# test the reverse proxy
+ProxyPass /coderjournal http://coderjournal.com

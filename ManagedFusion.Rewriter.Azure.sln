@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedFusion.Rewriter.Azure", "src\ManagedFusion.Rewriter.Azure.csproj", "{22EEA15A-F395-4E87-A910-9145F09A9F17}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Install", "install\ManagedFusion.Rewriter.Azure.Install.vdproj", "{77667AFB-4FD4-49B4-B8ED-8EC7E1C02C8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22EEA15A-F395-4E87-A910-9145F09A9F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EEA15A-F395-4E87-A910-9145F09A9F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EEA15A-F395-4E87-A910-9145F09A9F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EEA15A-F395-4E87-A910-9145F09A9F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77667AFB-4FD4-49B4-B8ED-8EC7E1C02C8E}.Debug|Any CPU.ActiveCfg = Debug
+		{77667AFB-4FD4-49B4-B8ED-8EC7E1C02C8E}.Debug|Any CPU.Build.0 = Debug
+		{77667AFB-4FD4-49B4-B8ED-8EC7E1C02C8E}.Release|Any CPU.ActiveCfg = Release
+		{77667AFB-4FD4-49B4-B8ED-8EC7E1C02C8E}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
